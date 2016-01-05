@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# script/setup - sets up the project for the first time
+
+# exit on sub-module failure
+set -e
+
+cd "$(dirname "$0")/.."
+
+# --------
+
+echo "Setting up..."
+
+npm install -g tsd
+npm install -g eslint
+npm install -g eslint-config-airbnb
+npm install -g eslint-plugin-react
+
+echo "Done setting up!"
+
+# --------

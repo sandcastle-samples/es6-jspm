@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# script/setup - sets up the project for the first time
+
+# exit on sub-module failure
+set -e
+
+cd "$(dirname "$0")/.."
+
+# --------
+
+python -m SimpleHTTPServer
+
+# --------

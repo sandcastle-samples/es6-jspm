@@ -1,3 +1,4 @@
 # Getting Started
 
-Run `sh run.sh`
+- Setup: `sh script/setup`
+- Server: `sh script/server`
