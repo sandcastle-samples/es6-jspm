@@ -1,0 +1,12 @@
+syntax: glob
+
+*.log
+
+# folders
+node_modules/
+jspm_packages/
+
+# typescript
+!/typings
+!/typings/tsd.d.ts
+/typings/*

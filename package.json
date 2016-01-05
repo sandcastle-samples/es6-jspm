@@ -1,0 +1,15 @@
+{
+  "jspm": {
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.4.8",
+      "angular-ui-router": "github:angular-ui/ui-router@^0.2.15",
+      "lodash": "npm:lodash@^3.10.1"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  },
+  "devDependencies": {
+    "jspm": "^0.16.19"
+  }
+}
